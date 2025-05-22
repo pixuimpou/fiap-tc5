@@ -93,4 +93,5 @@ if search:
                 data=buffer,
                 file_name=f"top_{quantidade}_recomendacoes_vaga_{id_vaga}.xlsx",
                 mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                use_container_width=True,
             )
